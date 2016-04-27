@@ -2,82 +2,1219 @@
 
 <html lang="en">
 <head>
+
+	<!-- META -->
 	<meta charset="utf-8">
-	<title>Nicky's OpenVizConf 2016 Talk!</title>
+	<title>How To Simulate The Universe In 134 Easy Steps</title>
 	<link rel="stylesheet" href="index.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- Schema.org markup for Google+ -->
+	<meta itemprop="name" content="How To Simulate The Universe In 134 Easy Steps">
+	<!--meta itemprop="description" content="a talk about systems"-->
+	<meta itemprop="image" content="http://ncase.me/OVC2016/social/thumbnail.png">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:title" content="How To Simulate The Universe In 134 Easy Steps">
+	<!--meta name="twitter:description" content="a talk about systems"-->
+	<meta name="twitter:image" content="http://ncase.me/OVC2016/social/thumbnail.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@ncasenmare">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="How To Simulate The Universe In 134 Easy Steps">
+	<!--meta property="og:description" content="a talk about systems"-->
+	<meta property="og:image" content="http://ncase.me/OVC2016/social/thumbnail.png">
+	<meta property="og:url" content="http://ncase.me/OVC2016/">
+	<meta property="og:type" content="website">
+
 </head>
 
 <body>
 <div id="content">
 	
 	<div id="title">
-		<span style="font-size: 66px;">HOW TO SIMULATE</span>
+		<span style="font-size:45px; position:relative; left:7px">
+			<b>MY <a href="https://openvisconf.com/">OPENVISCONF 2016</a> TALK:</b>
+			HOW TO
+		</span>
 		<br>
-		<span style="font-size: 79px; font-weight:bold;">THE UNIVERSE</span>
-		<br>
-		<span style="font-size: 66px;line-height: 38px;">IN 134 EASY STEPS</span>
+		<span>SIMULATE THE UNIVERSE IN 134 EASY STEPS</span>
 	</div>
 
-	<hr>
+	<div id="intro">
+	This is the text version of talk I gave on April 2016 at OpenVisConf,
+	a gathering for art/tech peeps who do data visualization.
+	(the fancy term for "we make graphs")
+	<br>
+	The video is coming soon-ish!
+	</div>
+	<div id="toc">
+	<a href="#intro">Introduction</a>
+	|
+	<a href="#uninformed">Part A: (Un)informed</a>
+	|
+	<a href="#disconnected">Part B: (Dis)connected</a>
+	|
+	<a href="#disempowered">Part C: (Dis)empowered</a>
+	|
+	<a href="#tools">Tools for Systems Storytelling</a>
+	|
+	<a href="#end">The End</a>
+	</div>
 
-	<p>
-	This is a talk I gave at <a href="https://openvisconf.com/">OpenVisConf 2016</a>.
-	My slides are coming soon! And the video is coming... I dunno,
-	I have no control over that.
-	In the meantime, here's links to the projects &amp; resources I referred to:
-	</p>
+	<div id="slides">
 
-	<h3>My Simulations</h3>
+<!-- INTRODUCTION -->
+<div>
+	<a name="intro"></a>
+	<img src="slides/slides0002.png"/>
+	<div>
+	So... I heard you like graphs.
+	<br><br>
+	<code>[laughter]</code>
+	<br><br>
+	Well, here's a completely made-up graph
+	based off an unscientific survey of two anecdotes.
+	How informed we are, versus how much information we have.
+	Obviously, the more information we have...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0003.png"/>
+	<div>
+	...the <i>less</i> informed we are,
+	because now there's too much noise, not enough signal.
+	Too much haystack, not enough needle.
+	We can't tell what really <i>matters</i> anymore.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0005.png"/>
+	<div>
+	Here's another graph.
+	<br><br>
+	How <i>connected</i> we are, versus how much information we have.
+	Again, obviously, the more information we have...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0006.png"/>
+	<div>
+	...the <i>less</i> connected we are, because with the internet,
+	you can find whatever information you want that already confirms
+	your pre-existing biases and beliefs. More information is making
+	us more polarized.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0008.png"/>
+	<div>
+	Here's another another graph.
+	<br><br>
+	How <i>empowered</i> we are, versus how m--
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0009.png"/>
+	<div>
+	Let's just skip to the punchline.
+	The more you learn, the more you realize everything's awful.
+	It's all too complex, and out of your control!
+	You can't <i>do</i> anything about it.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0010.png"/>
+	<div>
+	So. I heard you like graphs.
+	<br><br>
+	That's why we're here at this conference, isn't it?
+	Because we like to make visualizations and interactives,
+	to make information more accessible. We're doing this
+	because we want to make people...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0011.png"/>
+	<div>
+	...more informed,
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0012.png"/>
+	<div>
+	...more connected,
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0013.png"/>
+	<div>
+	...and more empowered,
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0014.png"/>
+	<div>
+	but if what we do – pumping more and more information out there –
+	accomplishes the complete <i>opposite</i> of that?...
+	Then, well, the question for us media-makers and journalists
+	in the internet age is <i>not</i> “can our field survive”, but
+	“does our field <i>deserve</i> to survive.”
+	<br><br>
+	<i>That</i> is our existential crisis.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0017.png"/>
+	<div>
+	<code>[unsettled laughter]</code>
+	</div>
+</div>
+
+
+<div>
+	<img src="slides/slides0019.png"/>
+	<div>
+	Seriously though, it's a big problem.
+	But to be fair, data visualization already solves half the issue.
+	Because dataviz lets us go from individual stories...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0020.png"/>
+	<div>
+	...to the larger patterns.
+	But I think it's time for us to go deeper.
+	Because if what's under those stories are patterns,
+	what's under those patterns...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0021.png"/>
+	<div>
+	...are <i>systems.</i>
+	</div>
+	<span class="caption">
+	<a href="https://www.flickr.com/photos/cheddar/68473995/">Mechanical Flowers by cheddar</a> (CC-BY-SA)
+	</span>
+</div>
+
+<!-- PART ONE: (UN)INFORMED -->
+
+<div>
+	<img src="slides/slides0023.png"/>
+	<div>
+	<a name="uninformed"></a>
+	<h3>
+		PART A: (UN)INFORMED
+		<a class="chapter_link" href="#uninformed"><img src="img/link.svg"/></a>
+	</h3>
+	So our problem is we have too much information, but not enough deep understanding.
+	Patterns can only tell us <i>how</i> things happen, but not <i>why</i> things happen.
+	For that, we need systems.
+	<br><br>
+	We already know what dataviz looks like – what would “system viz” look like?
+	</div>
+</div>
+
+<div>
+	<img src="vids/sim.png"/>
+	<div>
+	One tool I think might help is <i>simulation.</i>
+	<br><br>
+	Here's a project I made a few months ago,
+	<a href="http://ncase.me/simulating">Simulating The World (In Emoji 😘)</a>
+	<br><br>
+	It's a website full of simulations
+	where readers can play with them, change the rules,
+	and even create their own emoji-simulation!
+	These simulations were meant to teach a variety of <i>systems</i>,
+	such as...
+	</div>
+</div>
+
+<div>
+	<video width="400" controls loop>
+		<source src="vids/sim_forest.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<div>
+	Ecosystems, and why forest fires are actually good for the forest.
+	</div>
+	<span class="caption">
+	this is a looping video! click the play button to start it.
+	</span>
+</div>
+
+<div>
+	<video width="400" controls loop>
+		<source src="vids/sim_sick.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<div>
+	Epidemiology, how disease spreads, what herd immunity is, and why it's important.
+	<br><br>
+	<code>[a "huh." from the audience]</code>
+	</div>
+	<span class="caption">
+	this one's a looping video, too.
+	</span>
+</div>
+
+<div>
+	<video width="400" controls loop>
+		<source src="vids/sim_conflict.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<div>
+	Finally, civic conflict.
+	And how, much like wildfire or disease,
+	violence can spread quickly throughout a population.
+	<br><br>
+	Now, of <i>course</i>, these sims aren't gonna be complicated.
+	They're made in <i>emoji.</i> They're going to be very simplified.
+	But I say that's not a bug, it's a feature!
+	</div>
+	<span class="caption">
+	same.
+	</span>
+</div>
+
+<div>
+	<img src="slides/map.png"/>
+	<div>
+	Think of a street map.
+	<br><br>
+	A street map is useful not <i>despite</i> being simplified,
+	but <i>because</i> it's simplified.
+	That's the power of models and simulations –
+	they cut away what doesn't matter, to clearly show what <i>does</i>.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0025.png"/>
+	<div>
+	And that's the problem.
+	Too many things in our news and media just <i>doesn't matter</i>.
+	Or worse, they give people the entirely wrong impression.
+	<br><br>
+	For example, turn on your local cable news,
+	and you're bound to get a nasty, gnarly, gruesome crime story.
+	If that's the story you keep seeing, you'd think that crime is skyrocketing.
+	And that <i>is</i> the US public perception nowadays.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0026.png"/>
+	<div>
+	But if you look at the <i>trends</i>,
+	you'll see that crime has been falling in the US since the 80's.
+	But the trends only tell you <i>that</i> crime has fallen,
+	but not <i>why</i>.
+	<br><br>
+	For that, you need to go beyond the things and trends, and down to...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0027.png"/>
+	<div>
+	...the <i>theory</i>.
+	<br><br>
+	Sociology, criminology, psychology, economics, so on and so forth.
+	Once you have theory, then you can design a more humane criminal justice system.
+	Trends only let us extrapolate to the future.
+	Theory lets us <i>create</i> the future.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0028.png"/>
+	<div>
+	But, like Inception, we gotta go <i>deeper</i>.
+	<br><br>
+	<i>Is</i> there something deeper, that underlies
+	all the theories we have? I think, yes!
+	<br><br>
+	I mean – other than philosophy and mathematics and
+	language and logic and the scientific method itself,
+	there's also...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0029.png"/>
+	<div>
+	...SYSTEMS!
+	<br><br>
+	Systems Thinking. What <i>is</i> systems thinking?
+	It's a broad and interdisciplinary field,
+	and honestly it's a bit wibbly-wobbly,
+	but here's what it is at its core:
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0031.png"/>
+	<div>
+	Normally, we see things as a linear chain of cause-and-effect.
+	A affects B affects C, and son.
+	But what systems thinking says, is that the world is not <i>linear</i>...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0032.png"/>
+	<div>
+	...it's <i>LOOPY!</i>
+	<br><br>
+	Vicious cycles, virtuous cycles,
+	stabilizing and stagnating loops.
+	A affects B, but sometimes, B can then affect A.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0029.png"/>
+	<div>
+	So the next time you want to teach someone something,
+	don't just stop at a single thing, a single story.
+	Dig deeper. Go after the <i>system</i>.
+	Because it's only once we understand the deep underlying systems...
+	</div>
+</div>
+
+<div>
+	<img src="slides/map.png"/>
+	<div>
+	...can we then get to where we really want to go.
+	</div>
+</div>
+
+<!-- PART TWO: (DIS)CONNECTED -->
+
+<div>
+	<img src="slides/slides0034.png"/>
+	<div>
+	<a name="disconnected"></a>
+	<h3>
+		PART B: (DIS)CONNECTED
+		<a class="chapter_link" href="#disconnected"><img src="img/link.svg"/></a>
+	</h3>
+	But even if we're informed, we can still have polarized echo chambers.
+	In fact, higher education correlates with higher partisanship, on both sides.
+	So how do we overcome polarization?
+	How can we create common ground between people with completely contradicting viewpoints?
+	<br><br>
+	To answer that,
+	I'd like to show you a simulation I made one and a half years ago.
+	It's an example of how systems thinking can <i>combine contradictions</i>.
+	</div>
+</div>
+
+<div>
+	<img src="vids/potp1.png"/>
+	<div>
+	<a href="http://ncase.me/polygons/">Parable of the Polygons</a>,
+	an interactive blog post on discrimination and diversity.
+	<br><br>
+	Now, racism and sexism are very polarizing topics...
+	<span style="font-size:12px">especially on the internet...</span>
+	with lots of opposed, contradicting viewpoints.
+	<br><br>
+	One person could say, <i>look at the racial ratio in our incarceration system,
+	look at the gender pay gap, clearly there's massive societal discrimination.</i>
+	<br><br>
+	But another person could reasonably respond, <i>well I'm not a racist or sexist,
+	and nobody I know is, and there's a huge taboo against being one.
+	So even if we're slightly biased, it can't be as massive as you say.</i>
+	<br><br>
+	Parable of the Polygons uses simulation to show something counterintuitive:
+	it is possible for the <i>collective</i> to be highly biased,
+	even if none of the <i>individuals</i> are.
+	</div>
+</div>
+
+<div>
+	<img src="vids/potp2.png"/>
+	<div>
+	First, the Parable sets up the rules.
+	You, the reader, can move shape-people around a neighborhood.
+	Each shape thinks,
+	<br><br>
+	<i>“I wanna move if less than 1/3 of my neighbors are like me.”</i>
+	<br><br>
+	Note that this means that every one of them would be
+	<i>happy being in the minority</i>. There is no massive bias here.
+	</div>
+</div>
+
+<div>
+	<video width="400" controls>
+		<source src="vids/potp_shuffle.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<div>
+	And yet, if we start off with a randomly mixed neighborhood of
+	triangles &amp; squares, and you drag unhappy shapes to random empty spots,
+	without any foresight, what happens over time is...
+	</div>
+	<span class="caption">
+	this is a video! click play to watch what happens to the shapes
+	</span>
+</div>
+
+<div>
+	<img src="vids/potp3.png"/>
+	<div>
+	...complete segregation.
+	<br><br>
+	And the reader is not merely <i>told</i> this, or <i>shown</i> this,
+	they <i>create it for themselves, step-by-step</i>.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0036.png"/>
 	
-	<ul>
-		<li><a href="http://ncase.me/simulating/">Simulating The World (In Emoji 😘)</a></li>
-		<li><a href="http://ncase.me/polygons/">Parable of the Polygons</a></li>
-		<li><a href="http://ncase.me/prison-wip/model.html">[WIP] Prison Pipeline Sim</a></li>
-	</ul>
+	<div>
+	And that's how two seemingly incompatible ideas – 
+	that most individuals have low bias,
+	and society collectively has high bias –
+	can turn out to be different perspectives on the <i>same thing</i>.
+	<br><br>
+	Two things I want to emphasize:
+	<br><br>
+	One, I'm not saying this is how discrimination <i>always</i> works.
+	I'm just saying it's <i>plausible</i>, especially for bottom-up systems.
+	<br><br>
+	Two, this is <i>not</i> just “presenting both sides”.
+	If you do that, the reader will just succumb to confirmation bias,
+	and remember the part that supports their beliefs,
+	and forget the other parts. Instead, this is <i>combining</i> both sides –
+	making it so you can't understand one argument <i>without also understanding its opposite</i>.
+	<br><br>
+	Systems can <i>combine contradictions</i>.
+	</div>
 
-	<h3>Systems Storytelling (the old-fashioned way)</h3>
+	<span class="caption">
+	get this <a href="img/wallpaper.png">as a high-res wallpaper!</a>
+	</span>
 
-	<ul>
-		<li>Video/Film/TV: <a href="https://en.wikipedia.org/wiki/The_Wire">The Wire</a></li>
-		<li>Visual/Comics: <a href="https://en.wikipedia.org/wiki/Building_Stories">Building Stories</a></li>
-		<li>Novels:
-			<a href="https://en.wikipedia.org/wiki/Breakfast_of_Champions">Breakfast of Champions</a>,
-			<a href="https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad">A Visit from the Goon Squad</a>
-		</li>
-	</ul>
+</div>
 
-	<h3>Systems Storytelling</h3>
+<div>
+	<img src="slides/slides0038.png"/>
+	<div>
+	Let's talk about conflict.
+	<br><br>
+	I hope you appreciate my masterful illustration of conflict.
+	<br><br>
+	Anyway, a few conflict mediators are now using Systems Thinking
+	to resolve conflicts. This is how they do it:
+	</div>
+</div>
 
-	<ul>
-		<li>
-			<a href="https://en.wikipedia.org/wiki/Causal_loop_diagram">Causal Loop Diagrams</a>
-			(the <a href="http://linchpin.org/site/?p=1009">War on Drugs example</a>)
-		</li>
-		<li>
-			<a href="https://en.wikipedia.org/wiki/Stock_and_flow">Stock &amp; Flow Models</a>
-			(the <a href="https://en.wikipedia.org/wiki/MONIAC">economic water computer</a>)
-		</li>
-		<li>
-		Probability Simulations
+<div>
+	<img src="slides/slides0039.png"/>
+	<div>
+	First, they get one side's story.
+	Usually it'll be a linear cause-and-effect story.
+	In this toy example, the story is 
+	"they fought us, so we're just fighting back."
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0040.png"/>
+	<div>
+	But the other side also has their own story.
+	Here, it's also
+	"they fought us, so we're just fighting back."
+	<br><br>
+	And what the conflict mediator will do is show that the story
+	isn't <i>linear</i>...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0041.png"/>
+	<div>
+	...it's <i>LOOPY.</i>
+	<br><br>
+	In this case, it's an escalation of violence, an arms race, a vicious cycle.
+	That's a pretty common kind of loop for people to get stuck in.
+	<br><br>
+	The mediator then makes both sides recognize this.
+	That they're <i>both</i> trapped in the system.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0042.png"/>
+	<div>
+	The <i>system</i> is their common enemy.
+	<br><br>
+	Not each other.
+	<br><br>
+	Then maybe, after they realize the trap they're in,
+	people can start working together to overcome it.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0043.png"/>
+	<div>
+	This might be where I would use the word, "empathy".
+	<br><br>
+	Now – I <i>like</i> empathy, I've <i>made</i> stories and interactives "for empathy",
+	but it's uh, getting to be kind of a buzzword.
+	Not yet up there with "synergy", but maybe somewhere around "gamification."
+	<br><br>
+<pre style="padding-left:10px">[everyone laughs except for
+the business people]
+</pre>
+	<br>
+	But here's the problem with "empathy" – it's too individual.
+	Yes, you need to first start with understanding the individuals,
+	but then you need to understand the <i>systems.</i>
+	Even good people can get trapped in a bad system.
+	<br><br>
+	If too much information makes us feel polarized,
+	Systems Thinking reminds us we're all connected – 
+	for better or worse.
+	</div>
+</div>
+
+<!-- PART THREE: (DIS)EMPOWERED -->
+
+<div>
+	<img src="slides/slides0045.png"/>
+	<div>
+	<a name="disempowered"></a>
+	<h3>
+		PART C: (DIS)EMPOWERED
+		<a class="chapter_link" href="#disempowered"><img src="img/link.svg"/></a>
+	</h3>
+	But even if we're informed <i>and</i> connected,
+	we can still feel <i>disempowered</i>,
+	that we're all trapped in a system and can't do anything about it.
+	So how do we overcome <i>that?</i> And, well...
+	<br><br>
+	...I don't know. I was hoping I'd come up with an answer
+	by the time I was scheduled to give this talk,
+	but given that political philosophers have been tackling that question for
+	millennia, maybe I shouldn't be too surprised.
+	<br><br>
+	That said, I'd like to give you my half-baked thoughts on "how do we empower peeps",
+	in the form of a prototype:
+	</div>
+</div>
+
+<div>
+	<img src="vids/prison_start.png" style="border:1px solid #eee"/>
+	<div>
+	This isn't out yet.
+	<a href="http://ncase.me/prison-wip/model.html">(It's online, but not officially "out")</a>
+	It's a prototype simulation of the US incarceration system,
+	extended to schools and employment.
+	<br><br>
+	So you have a bunch of boxes: students at the top, employed &amp; unemployed in the middle,
+	and the incarcerated at the bottom.
+	Lil' simulated people move from box to box,
+	randomly, with probabilities based off the real stats on
+	race, age, income, education, and incarceration.
+	<br><br>
+	And you, the reader, can change those probabilities,
+	to try out different policies and scenarios.
+	To ask "what if", and more importantly,
+	"what can <i>I</i> do to affect this system?"
+	</div>
+</div>
+
+<div>
+	<video width="400" controls style="border:1px solid #eee">
+		<source src="vids/prison.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<div>
+	Let's run this simulation!
+	<br><br>
+	So, the people move from place to place, and you can also click an individual
+	to focus on just <i>their</i> story.
+	<br><br>
+	And then, you can change probabilities for the box <i>you</i> most have control over.
+	Like, if you're a teacher, you can use this sim to ask "what if I helped more low-income kids go to college?"
+	Or if you're a business-owner, "what if I reached out to hire ex-cons?"
+	Or if you're a policymaker, "what if I reduced, or eliminated, mandatory minimums for sentencing?"
+	From there, you can see what affect you could have on the whole system!
+	<br><br>
+	(You can't really see the effects in this prototype. That's why it's still a prototype.
+	I'll figure out the interface eventually)
+	</div>
+	<span class="caption">
+	this is a video! (the last video, actually) click to play.
+	</span>
+</div>
+
+<div>
+	<img src="slides/slides0047.png"/>
+	<div>
+	Here's why I think people feel disempowered.
+	Because we tell ourselves a linear story about how power flows.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0048.png"/>
+	<div>
+	We think it all starts with the people on top,
+	the government or corporations, who control–
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0049.png"/>
+	<div>
+	–the middlemen, the media, who control–
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0050.png"/>
+	<div>
+	–an easily-manipulated majority, a gullible generation.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0051.png"/>
+	<div>
+	And in a linear cause-and-effect world, there can only be one root cause.
+	So in this story, if you're not at the very top of the hierarchy,
+	then you have no power to change the system.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0052.png"/>
+	<div>
+	But remember, the world's not linear, it's...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0053.png"/>
+	<div>
+	<code>[audience shouts in unison: "LOOPY!"]</code>
+	</div>
+</div>
+
+
+<div>
+	<img src="slides/slides0054.png"/>
+	<div>
+	<i>Yeah!</i> Loopy!
+	<br><br>
+	And in a loopy system, there <i>is</i> no root cause.
+	That's good.
+	That means, no matter where you are in the system,
+	what you do can have an effect, cycle through the loops,
+	and ripple out through the entire system.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0055.png"/>
+	<div>
+	As Parable of the Polygons showed,
+	even small decisions within your local neighborhood
+	can profoundly impact the global stage.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0056.png"/>
+	<div>
+	So how can you change a whole system?
+	Well... you can't.
+	And frankly, you shouldn't.
+	No <i>one</i> person should have that power.
+	<br><br>
+	You don't "fix" systems.
+	You can only influence and evolve them,
+	so they can <i>change themselves</i>.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0057.png"/>
+	<div>
+	Let's make that more concrete.
+	<br><br>
+	For example, let's say you're a small business owner,
+	and you decide to reach out and hire ex-cons.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0058.png"/>
+	<div>
+	And let's say it works out.
+	Then <i>your</i> peers in business see you're doing well,
+	and do the same for their businesses.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0059.png"/>
+	<div>
+	But just as you influenced your peer network,
+	the ex-cons have their own peer networks:
+	most likely people from poor, disadvantaged neighborhoods.
+	The ex-cons who are given a second chance in society,
+	can now influence and help out their at-risk friends.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0060.png"/>
+	<div>
+	And let's say this spreads and spreads, a virtuous cycle,
+	until public opinion on criminal justice changes.
+	And so, public <i>pressure</i> on politicians changes,
+	to force them into finally re-writing the laws.
+	<br><br>
+	In the linear story, change can only start at the top.
+	But in this loopy system story, change goes from the bottom-up,
+	and it's those at the top who are the <i>last</i> to change.
+	And that's, maybe, how an individual can influence a system to change itself.
+	<br><br>
+	EASIER
+	<br><br>
+	SAID
+	<br><br>
+	THAN
+	<br><br>
+	DONE.
+	<br><br>
+	Again, and I cannot stress this enough, these are all half-baked thoughts,
+	I don't have the answer, nobody has the answer, maybe nobody
+	will <i>ever</i> have the answer.
+	</div>
+</div>
+
+
+<div>
+	<img src="slides/slides0013.png"/>
+	<div>
+	But systems thinking <i>is</i> powerful.
+	It can help us
+	understand things on a deeper level,
+	overcome polarization and work together,
+	and maybe – just maybe – it can help us <i>change the world!</i>
+	</div>
+</div>
+
+
+<div>
+	<img src="slides/slides0061.png"/>
+	<div>
+	. . .
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0062.png"/>
+	<div>
+	So what.
+	<br><br>
+	I just gave you a whole bunch of theory,
+	and not a lot of practical takeaways.
+	You may be saying...
+	<br><br>
+	<i>Nicky, I got deadlines after this conference.
+	I gotta learn D3. I'm only up to D2.</i>
+	<br><br>
+<pre style="padding-left:10px">
+[laughter disguising the fact that
+some of them probably *do* need to
+learn D3.js for a looming deadline]
+</pre>
+	<br>
+	<i>...so what do ya gots for me?</i>
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0063.png"/>
+	<div>
+	Well I'm glad you asked, hypothetical person,
+	because now I'm gonna give you some practical tools
+	to tell stories about systems, and systems about stories!
+	<br><br>
+	So, here are...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0064.png"/>
+	<div>
+	<a name="tools"></a>
+	<h3>
+		FIVE TOOLS FOR SYSTEMS STORYTELLING
+		<a class="chapter_link" href="#tools"><img src="img/link.svg"/></a>
+	</h3>
+	in order from least cray-cray to implement,
+	to most cray-cray to implement.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0065.png"/>
+	<div>
+	And the first tool is...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0066.png"/>
+	<div>
+	...nothing.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0067.png"/>
+	<div>
+	Or, at least, nothing <i>new</i>.
+	You don't need simulations or interactivity.
+	Because while it's still rare, people <i>have</i> successfully
+	told stories about systems in other media!
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0068.png"/>
+	<div>
+	The quintessential example of system-storytelling is <a href="https://en.wikipedia.org/wiki/The_Wire">The Wire</a>.
+	Each season is from a different perspective, a different part of the Baltimore criminal justice system.
+	So if you make video or film, definitely check out The Wire.
+	<br><br>
+	Alternatively, if you make infographics or other visuals, check out Chris Ware's graphic novel,
+	<a href="https://en.wikipedia.org/wiki/Building_Stories">Building Stories</a>.
+	It's not a story about a system, but the storytelling is very nonlinear,
+	with multiple perspectives in different points of time.
+	It'd be great to see those devices used in a visualization of a real-world system!
+	<br><br>
+	And of course, there's the oldest mass medium, writing.
+	You can also take inspiration for how to do nonlinear storytelling from "postmodern" literature
+	like Kurt Vonnegut's <a href="https://en.wikipedia.org/wiki/Breakfast_of_Champions">Breakfast of Champions</a>
+	or – one novel I read recently, not pictured here –
+	Jennifer Egan's <a href="https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad">A Visit from the Goon Squad</a>.
+	These novels use ensemble casts, because as we now know, a single perspective – a single narrative –
+	is not only limiting, but possibly <i>inhumane.</i>
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0071.png"/>
+	<div>
+	The second tool is what I've been using for this entire talk:
+	<a href="https://en.wikipedia.org/wiki/Causal_loop_diagram">Causal Loop Diagrams</a>.
+	<br><br>
+	Basically, words and arrows. You draw whether A causes more or less of B,
+	and the possible feedback loops. This picture you're seeing here is
+	<a href="http://linchpin.org/site/?p=1009">my favorite example, about the war on drugs.</a>
+	Specifically, heroin.
+	I love this example so much because it's three whole stories
+	about different parts of a system, compressed into
+	<i>one loopy picture</i>.
+	<br><br>
+	The 1st loop, on the top-left, shows that if you seize heroin,
+	you reduce heroin inventory in the short run. Duh.
+	But reducing the inventory drives up the price,
+	driving up the price drives up profits, and
+	driving up profits means a greater incentive to <i>create more heroin</i>.
+	And so on.
+	<br><br>
+	The 2nd loop also shows that if the price goes up,
+	petty crime and theft goes up, since addicts <i>physically need</i> to support their addiction.
+	This means more heroin users get arrested – adding to our mass incarceration problem –
+	which reduces the number of drug "customers",
+	which means drug dealers get an excess inventory.
+	<br><br>
+	Finally, the 3rd loop. When dealers have an excess inventory,
+	they need to "market" it more, start pushing heroin onto susceptible youths,
+	and create <i>even more addicts</i>, who will buy up their supply.
+	<br><br>
+	Those three loops could fill up <i>three whole documentaries</i>,
+	but the Causal Loop Diagram is powerful enough to capture it all.
+	I'd love to see you graphics designers use this!
+	Because... all the loop diagrams I could find are really terribly designed.
+	Even this example.
+	I love it, but my eyes are bleeding.
+	<br><br>
+	Apparently academics don't know there's more fonts than just Times New Roman,
+	and more shades of blue than hex code zero-zero-zero-zero-eff-eff.
+	<br><br>
+	<code>[pained sympathetic laughter]</code>
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0074.png"/>
+	<div>
+	Now we're getting into simulations!
+	The third tool is the <a href="https://en.wikipedia.org/wiki/Stock_and_flow">Stock &amp; Flow Model</a>.
+	It's like a bathtub. A bathtub is your "stock", and water "flows" in and out.
+	<br><br>
+	Now what's really weird – the earliest simulation I could find of a Stock &amp; Flow Model
+	is not on an electronic computer, but a <i>water</i> computer.
+	<a href="https://en.wikipedia.org/wiki/MONIAC">This is the MONIAC.</a>
+	Instead of electricity flowing through wires,
+	it's got water flowing through pipes. It was invented in 1949 by some
+	New Zealander economist, to simulate the UK economy.
+	For example, the treasury is a bathtub, and money flows in and out.
+	<br><br>
+	And researcher today still use stock &amp; flow models.
+	Climate scientists model CO<sub>2</sub> flowing in and out of the atmosphere.
+	Sociologists measure immigrants flowing in and out of a country.
+	Basically, if you have any <i>thing</i> where <i>things</i> go in and out of that <i>thing</i>,
+	you can use this tool to simulate it!
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0077.png"/>
+	<div>
+	The fourth tool is Probability Simulations.
+	The dataviz community is actually already making a lot of use of this!
+	And so I'll just go through a few examples:
+	<br><br>
+	<a href="http://flowingdata.com/2015/09/23/years-you-have-left-to-live-probably/">Years You Have Left to Live</a> 
+	by Nathan Yau, which uses real CDC stats to simulate copies of you
+	being born and dying... over and over... a hundred times per minute.
+	Yeah that's kinda dark.
+	<br><br>
+	<a href="https://www.themarshallproject.org/2015/08/04/the-new-science-of-sentencing">Parole Simulator</a>
+	by The Marshall Project &amp; FiveThirtyEight,
+	which puts the reader in control of deciding what the risk cutoff rate should be for parole.
+	The <i>reader</i> has to make that tradeoff.
+	<br><br>
+	<a href="http://blog.vctr.me/monty-hall/">Monty Hall Paradox Explained</a> by Victor Powell,
+	which demonstrates the infamous mathematical paradox, via simulation.
+	<br><br>
+	<a href="http://rocknpoll.graphics/">Rock n' Poll</a> by Maarten Lambrechts,
+	which uses simulations to explain what "margin of error" is,
+	and why a 2% change in polling results isn't worth analyzing.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0080.png"/>
+	<div>
+	Finally, on the deep end of the theoretical pool,
+	we have <a href="https://en.wikipedia.org/wiki/Agent-based_model">Agent-Based Modeling</a>.
+	<br><br>
+	Basically, an "agent" is a thing that makes decisions,
+	and an agent-based model is several agents making decisions
+	based off <i>each others' decisions</i>.
+	Lots of loops.
+	<br><br>
+	Parable of the Polygons uses an agent-based model
+	from Thomas Schelling, a Nobel Prize-winning economist.
+	These models don't have to be grid-based,
+	they can also be a network – like social networks,
+	economic networks, or political networks.
+	<br><br>
+	Agent-based models also have practical uses.
+	They're used to design fire escapes, by simulating how crowds flow, and
+	to design public health campaigns, by simulating how an epidemic can spread.
+	<br><br>
+	See? <i>SIMULATIONS SAVE LIVES.</i>
+	<br><br>
+	Anyway, now that you know the theory and tools, without further ado,
+	I present to you...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0082.png"/>
+	<div>
+	<a name="end"></a>
+	<h3>
+		HOW TO SIMULATE THE UNIVERSE IN ONE HUNDRED AND THIRTY-FOUR EASY STEPS
+		<a class="chapter_link" href="#end"><img src="img/link.svg"/></a>
+	</h3>
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0083.png"/>
+	<div>
+	...Step 1.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0084.png"/>
+	<div>
+	Pick a thing. A specific individual's story you want to tell.
+	You have to start with a <i>human</i> story, because that's the emotional hook
+	that'll make people care, and the concrete case for your abstract system.
+	<br><br>
+	But don't stop there. Go deeper to...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0085.png"/>
+	<div>
+	Step 2: the trends. The underlying patterns that your story is a part of.
+	Then go even deeper, to...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0086.png"/>
+	<div>
+	Step 3: the theory. <i>Why</i> the patterns are the way they are.
+	You don't need to be an expert, but just figure out enough to understand...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0087.png"/>
+	<div>
+	Step 4: the cause-and-effect <i>loops</i>.
+	Like a street map, you can't and shouldn't consider <i>every</i> possible thing,
+	but just get down what your core loops are.
+	Once you have that...
+	</div>
+</div>
+
+
+<div>
+	<img src="slides/slides0088.png"/>
+	<div>
+	Step 5: pick the tool that works best for you, to tell the story of this system.
+	And once you have a prototype...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0089.png"/>
+	<div>
+	Step 6: iterate on that prototype. Then...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0090.png"/>
+	<div>
+	Step 7: iterate on that prototype. Then...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0096.png"/>
+	<div>
+	Step 8: iterate on that prototype. Then you just
+	keep doing that for a while, until you've made something wonderful that really...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0098.png"/>
+	<div>
+	informs people,
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0100.png"/>
+	<div>
+	connects people,
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0102.png"/>
+	<div>
+	and empowers people, and once you've done all that...
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0105.png"/>
+	<div>
+	Step 134... ship it!
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0106.png"/>
+	<div>
+	And step 135, fix some bugs.
+	</div>
+</div>
+
+<div>
+	<img src="slides/slides0107.png"/>
+	<div>
+	Thank you all so much!
+	<br><br>
+	<code>[APPLAUSE]</code>
+	<hr>
+	<div style="font-size:16px; line-height: 1.4em;">
+
+		<img src="img/ncase.png" width="60" style="border-radius:60px; margin-right:20px; float:left;"/>
+
+		If you like the shtuff I make, feel free to
+		<a href="https://twitter.com/ncasenmare">follow me on Twitter</a>,
+		or
+		<a href="http://patreon.com/ncase">throw monies at me on Patreon</a>. Thankies!~
+
+		<div style="clear:both"></div>
+		<br>
+
+		<img src="img/zero.svg" width="60" style="margin-right:20px; float:left;"/>
+		
+		All my slides &amp; words are <a href="https://creativecommons.org/publicdomain/zero/1.0/">dedicated to the public domain.</a>
+		You can grab the source <a href="https://github.com/ncase/OVC2016">here</a>,
+		and use it however!
+	
+		<div style="clear:both"></div>
+		<br>
+
+		<b>P.S</b> – Stuff I Didn't Mention In My Talk, But That You May Still Wanna Check Out:
 		<ul>
-			<li>Nathan Yau's <a href="http://flowingdata.com/2015/09/23/years-you-have-left-to-live-probably/">Years You Have Left to Live, Probably</a></li>
-			<li>The Marshall Project &amp; FiveThirtyEight's <a href="https://www.themarshallproject.org/2015/08/04/the-new-science-of-sentencing">Parole Simulator</a></li>
-			<li>Victor Powell's <a href="http://blog.vctr.me/monty-hall/">Monty Hall Paradox, explained</a></li>
-			<li>Maarten Lambrechts's <a href="http://rocknpoll.graphics/">Rock n' Poll</a></li>
+			<li><a href="http://www.powells.com/book/thinking-in-systems-a-primer-9781603580557/62-0">Thinking In Systems</a> (book)</li>
+			<li><a href="http://worrydream.com/MediaForThinkingTheUnthinkable/">Media for Thinking the Unthinkable</a> (talk)</li>
+			<li><a href="http://explorableexplanations.com/">Explorable Explanations</a> (wobsite)</li>
 		</ul>
-		</li>
-		<li>
-			<a href="https://en.wikipedia.org/wiki/Agent-based_model">Agent-Based Modelling</a>
-		</li>
-	</ul>
 
-	<h3>Other Resources I Didn't Mention In My Talk But You May Probs Wanna Check Out</h3>
+	</div>
+</div>
 
-	<ul>
-		<li><a href="http://www.amazon.com/Thinking-Systems-Donella-H-Meadows-ebook/dp/B005VSRFEA">Thinking In Systems</a>, <i>the</i> book on systems thinking</li>
-		<li>Bret Victor's talk, <a href="http://worrydream.com/MediaForThinkingTheUnthinkable/">Media for Thinking the Unthinkable</a></li>
-		<li><a href="http://explorableexplanations.com/">Explorable Explanations</a>, a hub for interactive edu-shtuff</li>
-	</ul>
+	</div>
 
 </div>
 </body>

@@ -1,0 +1,22 @@
+body{
+	margin:0;
+	font-size:19px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	line-height: 1.4em;
+}
+#content{
+	margin: 100px auto;
+	width: 600px;
+	text-align: justify;
+}
+#title{
+	text-align:center;
+	margin-bottom: 20px;
+	line-height: 51px;
+}
+hr{
+	border:none;
+	border-bottom:2px solid #ddd;
+	margin: 30px 0 40px 0;
+}
