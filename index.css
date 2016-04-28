@@ -50,8 +50,8 @@ body{
 #title{
 	text-align:center;
 	margin-bottom: 20px;
-	line-height: 45px;
-	font-size: 40px;
+	/*line-height: 35px;*/
+	font-size: 32px;
 }
 #outro{
 	width: 600px;
@@ -74,6 +74,7 @@ code, pre, #intro{
 	line-height: 20px; 
 	font-family: monospace;
 	text-align: center;
+	background: #333;
 }
 hr{
 	border:none;
